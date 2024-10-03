@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav">
+          <h1>familiaris noster</h1>
+          <button class="switch-btn">
+            <span><i class="fa-solid fa-moon"></i></span>
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span class="switch"></span>
+          </button>
+        </div>
+      </nav>
+      <section class="articles">
+        <!-- generated content -->
+        <article class="post">
+          <h2>Title</h2>
+          <div class="post-info">
+            <span>Date</span>
+            <span>Minutes</span>
+          </div>
+          <p>
+            Content Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis eligendi autem, error debitis illum ipsa sapiente consequatur, ratione, rerum voluptates mollitia ex quo ipsam dignissimos officiis dicta. Rerum, modi assumenda.
+          </p>
+        </article>
+        <!-- ------------------ -->
+      </section>
+    </main>
+    <!-- moment.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
